@@ -1,0 +1,1463 @@
+2025-05-05 17:15:10 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 35668 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 17:15:10 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 17:15:10 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 17:15:10 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 17:15:10 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 17:15:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 17:15:10 - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-05 17:15:10 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 17:15:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:15:10 - Starting service [Tomcat]
+2025-05-05 17:15:10 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 17:15:10 - Initializing Spring embedded WebApplicationContext
+2025-05-05 17:15:10 - Root WebApplicationContext: initialization completed in 820 ms
+2025-05-05 17:15:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 17:15:10 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 17:15:11 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 17:15:11 - HikariPool-1 - Starting...
+2025-05-05 17:15:11 - HikariPool-1 - Start completed.
+2025-05-05 17:15:11 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 17:15:11 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-05 17:15:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 17:15:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 17:15:11 - LiveReload server is running on port 35729
+2025-05-05 17:15:11 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:15:11 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 17:15:11 - Started Application in 1.642 seconds (JVM running for 1.904)
+2025-05-05 17:18:08 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 14696 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 17:18:08 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 17:18:08 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 17:18:08 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 17:18:08 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 17:18:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 17:18:08 - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2025-05-05 17:18:09 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 17:18:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:18:09 - Starting service [Tomcat]
+2025-05-05 17:18:09 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 17:18:09 - Initializing Spring embedded WebApplicationContext
+2025-05-05 17:18:09 - Root WebApplicationContext: initialization completed in 874 ms
+2025-05-05 17:18:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 17:18:09 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 17:18:09 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 17:18:09 - HikariPool-1 - Starting...
+2025-05-05 17:18:09 - HikariPool-1 - Start completed.
+2025-05-05 17:18:09 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 17:18:09 - Failed to initialize JPA EntityManagerFactory: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Attendance
+2025-05-05 17:18:09 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Attendance
+2025-05-05 17:18:09 - HikariPool-1 - Shutdown initiated...
+2025-05-05 17:18:09 - HikariPool-1 - Shutdown completed.
+2025-05-05 17:18:09 - Stopping service [Tomcat]
+2025-05-05 17:18:09 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-05 17:18:09 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Attendance
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:910)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.officialshivam.HomeLab.WorkerManagement.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Attendance
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:772)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+2025-05-05 17:21:32 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 34428 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 17:21:32 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 17:21:32 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 17:21:32 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 17:21:32 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 17:21:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 17:21:32 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2025-05-05 17:21:33 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 17:21:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:21:33 - Starting service [Tomcat]
+2025-05-05 17:21:33 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 17:21:33 - Initializing Spring embedded WebApplicationContext
+2025-05-05 17:21:33 - Root WebApplicationContext: initialization completed in 844 ms
+2025-05-05 17:21:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 17:21:33 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 17:21:33 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 17:21:33 - HikariPool-1 - Starting...
+2025-05-05 17:21:33 - HikariPool-1 - Start completed.
+2025-05-05 17:21:33 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 17:21:33 - Failed to initialize JPA EntityManagerFactory: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Dues
+2025-05-05 17:21:33 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Dues
+2025-05-05 17:21:33 - HikariPool-1 - Shutdown initiated...
+2025-05-05 17:21:33 - HikariPool-1 - Shutdown completed.
+2025-05-05 17:21:33 - Stopping service [Tomcat]
+2025-05-05 17:21:33 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-05 17:21:33 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Dues
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:910)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.officialshivam.HomeLab.WorkerManagement.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.officialshivam.HomeLab.WorkerManagement.schemas.Dues
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:772)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+2025-05-05 17:21:58 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 28252 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 17:21:58 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 17:21:58 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 17:21:58 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 17:21:58 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 17:21:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 17:21:58 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2025-05-05 17:21:59 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 17:21:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:21:59 - Starting service [Tomcat]
+2025-05-05 17:21:59 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 17:21:59 - Initializing Spring embedded WebApplicationContext
+2025-05-05 17:21:59 - Root WebApplicationContext: initialization completed in 850 ms
+2025-05-05 17:21:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 17:21:59 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 17:21:59 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 17:21:59 - HikariPool-1 - Starting...
+2025-05-05 17:21:59 - HikariPool-1 - Start completed.
+2025-05-05 17:21:59 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 17:21:59 - 
+    
+    alter table attendance 
+       add column is_extra_task_assigned bit not null
+2025-05-05 17:22:00 - 
+    
+    alter table attendance 
+       drop index UKb8e33xd1v6vh855wrbku1kc1e
+2025-05-05 17:22:00 - 
+    
+    alter table attendance 
+       add constraint UKb8e33xd1v6vh855wrbku1kc1e unique (worker_id, date)
+2025-05-05 17:22:00 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-05 17:22:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 17:22:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 17:22:00 - LiveReload server is running on port 35729
+2025-05-05 17:22:00 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:22:00 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 17:22:00 - Started Application in 2.155 seconds (JVM running for 2.421)
+2025-05-05 17:59:25 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 38196 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 17:59:25 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 17:59:25 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 17:59:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 17:59:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 17:59:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 17:59:25 - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2025-05-05 17:59:26 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 17:59:26 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:59:26 - Starting service [Tomcat]
+2025-05-05 17:59:26 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 17:59:26 - Initializing Spring embedded WebApplicationContext
+2025-05-05 17:59:26 - Root WebApplicationContext: initialization completed in 998 ms
+2025-05-05 17:59:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 17:59:26 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 17:59:26 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 17:59:26 - HikariPool-1 - Starting...
+2025-05-05 17:59:26 - HikariPool-1 - Start completed.
+2025-05-05 17:59:26 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 17:59:27 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-05 17:59:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 17:59:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 17:59:27 - LiveReload server is running on port 35729
+2025-05-05 17:59:27 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:59:27 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 17:59:27 - Started Application in 2.365 seconds (JVM running for 2.644)
+2025-05-05 17:59:37 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 24236 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 17:59:37 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 17:59:37 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 17:59:37 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 17:59:37 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 17:59:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 17:59:38 - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2025-05-05 17:59:38 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 17:59:38 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:59:38 - Starting service [Tomcat]
+2025-05-05 17:59:38 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 17:59:38 - Initializing Spring embedded WebApplicationContext
+2025-05-05 17:59:38 - Root WebApplicationContext: initialization completed in 931 ms
+2025-05-05 17:59:38 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 17:59:39 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 17:59:39 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 17:59:39 - HikariPool-1 - Starting...
+2025-05-05 17:59:39 - HikariPool-1 - Start completed.
+2025-05-05 17:59:39 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 17:59:39 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-05 17:59:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 17:59:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 17:59:40 - LiveReload server is running on port 35729
+2025-05-05 17:59:40 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 17:59:40 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 17:59:40 - Started Application in 2.944 seconds (JVM running for 3.301)
+2025-05-05 18:19:25 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 35692 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 18:19:25 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 18:19:25 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 18:19:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 18:19:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 18:19:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 18:19:25 - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2025-05-05 18:19:26 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 18:19:26 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 18:19:26 - Starting service [Tomcat]
+2025-05-05 18:19:26 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 18:19:26 - Initializing Spring embedded WebApplicationContext
+2025-05-05 18:19:26 - Root WebApplicationContext: initialization completed in 1036 ms
+2025-05-05 18:19:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 18:19:26 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 18:19:26 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 18:19:26 - HikariPool-1 - Starting...
+2025-05-05 18:19:27 - HikariPool-1 - Start completed.
+2025-05-05 18:19:27 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 18:19:27 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-05 18:19:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 18:19:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 18:19:28 - LiveReload server is running on port 35729
+2025-05-05 18:19:28 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 18:19:28 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 18:19:28 - Started Application in 3.537 seconds (JVM running for 3.904)
+2025-05-05 18:21:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 18:21:49 - Initializing Servlet 'dispatcherServlet'
+2025-05-05 18:21:49 - Completed initialization in 1 ms
+2025-05-05 18:22:22 - Received request to add worker
+2025-05-05 18:22:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s454ms223µs500ns).
+2025-05-05 18:23:09 - 
+    insert 
+    into
+        workers
+        (address, base_salary, emergency_contact_number, is_active, joining_date, name, per_day_salary, phone, row_insertion_date_time, row_updation_date_time, uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-05 18:23:09 - binding parameter [1] as [VARCHAR] - [123 Main St, Springfield]
+2025-05-05 18:23:09 - binding parameter [2] as [NUMERIC] - [null]
+2025-05-05 18:23:09 - binding parameter [3] as [VARCHAR] - [9876543210]
+2025-05-05 18:23:09 - binding parameter [4] as [BOOLEAN] - [true]
+2025-05-05 18:23:09 - binding parameter [5] as [TIMESTAMP] - [null]
+2025-05-05 18:23:09 - binding parameter [6] as [VARCHAR] - [John Doe]
+2025-05-05 18:23:09 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-05 18:23:09 - binding parameter [8] as [VARCHAR] - [1234567890]
+2025-05-05 18:23:09 - binding parameter [9] as [TIMESTAMP] - [2025-05-05T18:23:00.591880100]
+2025-05-05 18:23:09 - binding parameter [10] as [TIMESTAMP] - [null]
+2025-05-05 18:23:09 - binding parameter [11] as [VARCHAR] - [f9d0c04e-52ad-4e93-b074-87cd0a1e4e97]
+2025-05-05 18:52:05 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 17208 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-05 18:52:05 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-05 18:52:05 - No active profile set, falling back to 1 default profile: "default"
+2025-05-05 18:52:05 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-05 18:52:05 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-05 18:52:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-05 18:52:05 - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2025-05-05 18:52:06 - Tomcat initialized with port(s): 8080 (http)
+2025-05-05 18:52:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 18:52:06 - Starting service [Tomcat]
+2025-05-05 18:52:06 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-05 18:52:06 - Initializing Spring embedded WebApplicationContext
+2025-05-05 18:52:06 - Root WebApplicationContext: initialization completed in 991 ms
+2025-05-05 18:52:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-05 18:52:06 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-05 18:52:06 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-05 18:52:06 - HikariPool-1 - Starting...
+2025-05-05 18:52:06 - HikariPool-1 - Start completed.
+2025-05-05 18:52:06 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-05 18:52:07 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-05 18:52:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-05 18:52:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-05 18:52:08 - LiveReload server is running on port 35729
+2025-05-05 18:52:08 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 18:52:08 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 18:52:08 - Started Application in 3.205 seconds (JVM running for 3.539)
+2025-05-05 18:52:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 18:52:11 - Initializing Servlet 'dispatcherServlet'
+2025-05-05 18:52:11 - Completed initialization in 0 ms
+2025-05-05 18:52:17 - Received request to Delete worker
+2025-05-05 18:52:21 - In function: deleteWorker
+2025-05-05 18:52:46 - Validation failed while Deleting worker: At least one identifier (workerId or uuid) must be provided.
+java.lang.IllegalArgumentException: At least one identifier (workerId or uuid) must be provided.
+	at com.officialshivam.HomeLab.WorkerManagement.services.impl.WorkerServiceImpl.deleteWorker(WorkerServiceImpl.java:72)
+	at com.officialshivam.HomeLab.WorkerManagement.controllers.WorkerController.deleteWorker(WorkerController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:528)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2025-05-05 18:53:11 - Received request to Delete worker
+2025-05-05 18:53:13 - In function: deleteWorker
+2025-05-05 18:53:20 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-05 18:53:20 - binding parameter [1] as [VARCHAR] - [f9d0c04e-52ad-4e93-b074-87cd0a1e4e97]
+2025-05-05 18:53:20 - extracted value ([id] : [BIGINT]) - [1]
+2025-05-05 18:53:20 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-05 18:53:20 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-05 18:53:20 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-05 18:53:20 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-05 18:53:20 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-05 18:53:20 - extracted value ([name] : [VARCHAR]) - [John Doe]
+2025-05-05 18:53:20 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-05 18:53:20 - extracted value ([phone] : [VARCHAR]) - [1234567890]
+2025-05-05 18:53:20 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-05T18:23:01]
+2025-05-05 18:53:20 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [null]
+2025-05-05 18:53:20 - extracted value ([uuid] : [VARCHAR]) - [f9d0c04e-52ad-4e93-b074-87cd0a1e4e97]
+2025-05-05 18:53:20 - extracted value ([worker_id] : [VARCHAR]) - []
+2025-05-05 18:53:28 - 
+    delete 
+    from
+        workers 
+    where
+        id=?
+2025-05-05 18:53:28 - binding parameter [1] as [BIGINT] - [1]
+2025-05-05 18:53:29 - Deleted worker with ID: 1
+2025-05-06 15:43:34 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 9600 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 15:43:34 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 15:43:34 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 15:43:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 15:43:34 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 15:43:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 15:43:34 - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2025-05-06 15:43:35 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 15:43:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:43:35 - Starting service [Tomcat]
+2025-05-06 15:43:35 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 15:43:35 - Initializing Spring embedded WebApplicationContext
+2025-05-06 15:43:35 - Root WebApplicationContext: initialization completed in 1194 ms
+2025-05-06 15:43:35 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 15:43:35 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 15:43:35 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 15:43:35 - HikariPool-1 - Starting...
+2025-05-06 15:43:35 - HikariPool-1 - Start completed.
+2025-05-06 15:43:35 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 15:43:35 - Failed to initialize JPA EntityManagerFactory: Unable to create unique key constraint (worker_id, date) on table attendance: database column 'worker_id' not found. Make sure that you use the correct column name which depends on the naming strategy in use (it may not be the same as the property name in the entity, especially for relational types)
+2025-05-06 15:43:35 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Unable to create unique key constraint (worker_id, date) on table attendance: database column 'worker_id' not found. Make sure that you use the correct column name which depends on the naming strategy in use (it may not be the same as the property name in the entity, especially for relational types)
+2025-05-06 15:43:35 - HikariPool-1 - Shutdown initiated...
+2025-05-06 15:43:35 - HikariPool-1 - Shutdown completed.
+2025-05-06 15:43:35 - Stopping service [Tomcat]
+2025-05-06 15:43:35 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-06 15:43:35 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Unable to create unique key constraint (worker_id, date) on table attendance: database column 'worker_id' not found. Make sure that you use the correct column name which depends on the naming strategy in use (it may not be the same as the property name in the entity, especially for relational types)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:910)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.officialshivam.HomeLab.WorkerManagement.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: Unable to create unique key constraint (worker_id, date) on table attendance: database column 'worker_id' not found. Make sure that you use the correct column name which depends on the naming strategy in use (it may not be the same as the property name in the entity, especially for relational types)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.buildUniqueKeyFromColumnNames(InFlightMetadataCollectorImpl.java:2060)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.buildUniqueKeyFromColumnNames(InFlightMetadataCollectorImpl.java:1921)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processUniqueConstraintHolders(InFlightMetadataCollectorImpl.java:1909)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1635)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+2025-05-06 15:48:46 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 30392 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 15:48:46 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 15:48:46 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 15:48:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 15:48:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 15:48:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 15:48:47 - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2025-05-06 15:48:48 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 15:48:48 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:48:48 - Starting service [Tomcat]
+2025-05-06 15:48:48 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 15:48:48 - Initializing Spring embedded WebApplicationContext
+2025-05-06 15:48:48 - Root WebApplicationContext: initialization completed in 2223 ms
+2025-05-06 15:48:48 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 15:48:48 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 15:48:49 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 15:48:49 - HikariPool-1 - Starting...
+2025-05-06 15:48:49 - HikariPool-1 - Start completed.
+2025-05-06 15:48:49 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 15:48:50 - 
+    
+    alter table workers 
+       add column worker_id varchar(255) not null
+2025-05-06 15:48:50 - 
+    
+    alter table attendance 
+       drop index UKcuglm619dij2cqve8dba7vusx
+2025-05-06 15:48:50 - 
+    
+    alter table attendance 
+       add constraint UKcuglm619dij2cqve8dba7vusx unique (worker_uuid, date)
+2025-05-06 15:48:50 - 
+    
+    alter table workers 
+       drop index UK_93whoe4nk99dirfj12e02ewos
+2025-05-06 15:48:50 - 
+    
+    alter table workers 
+       add constraint UK_93whoe4nk99dirfj12e02ewos unique (worker_id)
+2025-05-06 15:48:50 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 15:48:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 15:48:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 15:48:53 - LiveReload server is running on port 35729
+2025-05-06 15:48:53 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:48:53 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 15:48:53 - Started Application in 7.251 seconds (JVM running for 7.879)
+2025-05-06 15:49:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 15:49:58 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 15:49:58 - Completed initialization in 2 ms
+2025-05-06 15:50:01 - Received request to add worker
+2025-05-06 15:50:04 - In function: addWorker
+2025-05-06 15:50:10 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        worker_id = ?
+2025-05-06 15:50:10 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 15:50:30 - Error while adding worker: not-null property references a null or transient value : com.officialshivam.HomeLab.WorkerManagement.schemas.Worker.workerId; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : com.officialshivam.HomeLab.WorkerManagement.schemas.Worker.workerId
+org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : com.officialshivam.HomeLab.WorkerManagement.schemas.Worker.workerId; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : com.officialshivam.HomeLab.WorkerManagement.schemas.Worker.workerId
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:294)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy109.saveAndFlush(Unknown Source)
+	at com.officialshivam.HomeLab.WorkerManagement.services.impl.WorkerServiceImpl.addWorker(WorkerServiceImpl.java:50)
+	at com.officialshivam.HomeLab.WorkerManagement.controllers.WorkerController.addWorker(WorkerController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:528)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value : com.officialshivam.HomeLab.WorkerManagement.schemas.Worker.workerId
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:111)
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:55)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:116)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:72)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:329)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy105.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:315)
+	at com.sun.proxy.$Proxy105.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAndFlush(SimpleJpaRepository.java:681)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 59 common frames omitted
+2025-05-06 15:56:12 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 20136 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 15:56:12 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 15:56:12 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 15:56:12 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 15:56:12 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 15:56:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 15:56:12 - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2025-05-06 15:56:13 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 15:56:13 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:56:13 - Starting service [Tomcat]
+2025-05-06 15:56:13 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 15:56:13 - Initializing Spring embedded WebApplicationContext
+2025-05-06 15:56:13 - Root WebApplicationContext: initialization completed in 1060 ms
+2025-05-06 15:56:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 15:56:13 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 15:56:13 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 15:56:13 - HikariPool-1 - Starting...
+2025-05-06 15:56:14 - HikariPool-1 - Start completed.
+2025-05-06 15:56:14 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 15:56:14 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 15:56:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 15:56:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 15:56:15 - LiveReload server is running on port 35729
+2025-05-06 15:56:15 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:56:15 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 15:56:15 - Started Application in 3.382 seconds (JVM running for 3.737)
+2025-05-06 15:56:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 15:56:19 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 15:56:19 - Completed initialization in 1 ms
+2025-05-06 15:56:21 - Received request to add worker
+2025-05-06 15:56:23 - In function: addWorker
+2025-05-06 15:56:23 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        worker_id = ?
+2025-05-06 15:56:23 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 15:57:13 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 18652 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 15:57:13 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 15:57:13 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 15:57:14 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 15:57:14 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 15:57:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 15:57:14 - Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2025-05-06 15:57:15 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 15:57:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:57:15 - Starting service [Tomcat]
+2025-05-06 15:57:15 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 15:57:15 - Initializing Spring embedded WebApplicationContext
+2025-05-06 15:57:15 - Root WebApplicationContext: initialization completed in 1198 ms
+2025-05-06 15:57:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 15:57:15 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 15:57:15 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 15:57:15 - HikariPool-1 - Starting...
+2025-05-06 15:57:15 - HikariPool-1 - Start completed.
+2025-05-06 15:57:15 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 15:57:16 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 15:57:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 15:57:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 15:57:17 - LiveReload server is running on port 35729
+2025-05-06 15:57:17 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:57:17 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 15:57:17 - Started Application in 3.829 seconds (JVM running for 4.433)
+2025-05-06 15:57:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 15:57:20 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 15:57:20 - Completed initialization in 1 ms
+2025-05-06 15:57:21 - Received request to add worker
+2025-05-06 15:57:23 - In function: addWorker
+2025-05-06 15:57:24 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        worker_id = ?
+2025-05-06 15:57:24 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 15:57:26 - 
+    insert 
+    into
+        workers
+        (address, base_salary, emergency_contact_number, is_active, joining_date, name, per_day_salary, phone, row_insertion_date_time, row_updation_date_time, uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 15:57:26 - binding parameter [1] as [VARCHAR] - [123 Main St, Springfield]
+2025-05-06 15:57:26 - binding parameter [2] as [NUMERIC] - [null]
+2025-05-06 15:57:26 - binding parameter [3] as [VARCHAR] - [9876543210]
+2025-05-06 15:57:26 - binding parameter [4] as [BOOLEAN] - [true]
+2025-05-06 15:57:26 - binding parameter [5] as [TIMESTAMP] - [null]
+2025-05-06 15:57:26 - binding parameter [6] as [VARCHAR] - [John Doe]
+2025-05-06 15:57:26 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 15:57:26 - binding parameter [8] as [VARCHAR] - [1234567890]
+2025-05-06 15:57:26 - binding parameter [9] as [TIMESTAMP] - [2025-05-06T15:57:25.485496]
+2025-05-06 15:57:26 - binding parameter [10] as [TIMESTAMP] - [2025-05-06T15:57:25.485496]
+2025-05-06 15:57:26 - binding parameter [11] as [VARCHAR] - [HOME_01]
+2025-05-06 15:57:26 - SQL Error: 1364, SQLState: HY000
+2025-05-06 15:57:26 - Field 'worker_id' doesn't have a default value
+2025-05-06 15:58:46 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 17264 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 15:58:46 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 15:58:46 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 15:58:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 15:58:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 15:58:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 15:58:46 - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2025-05-06 15:58:47 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 15:58:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:58:47 - Starting service [Tomcat]
+2025-05-06 15:58:47 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 15:58:47 - Initializing Spring embedded WebApplicationContext
+2025-05-06 15:58:47 - Root WebApplicationContext: initialization completed in 1058 ms
+2025-05-06 15:58:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 15:58:47 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 15:58:47 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 15:58:47 - HikariPool-1 - Starting...
+2025-05-06 15:58:47 - HikariPool-1 - Start completed.
+2025-05-06 15:58:47 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 15:58:47 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 15:58:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 15:58:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 15:58:49 - LiveReload server is running on port 35729
+2025-05-06 15:58:49 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 15:58:49 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 15:58:49 - Started Application in 3.314 seconds (JVM running for 3.684)
+2025-05-06 15:58:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 15:58:50 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 15:58:50 - Completed initialization in 1 ms
+2025-05-06 15:58:52 - Received request to add worker
+2025-05-06 15:58:56 - In function: addWorker
+2025-05-06 15:58:57 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        worker_id = ?
+2025-05-06 15:58:57 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 15:58:57 - SQL Error: 1054, SQLState: 42S22
+2025-05-06 15:58:57 - Unknown column 'worker_id' in 'where clause'
+2025-05-06 16:00:54 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 16472 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 16:00:54 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 16:00:54 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 16:00:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 16:00:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 16:00:54 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 16:00:54 - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2025-05-06 16:00:55 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 16:00:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 16:00:55 - Starting service [Tomcat]
+2025-05-06 16:00:55 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 16:00:55 - Initializing Spring embedded WebApplicationContext
+2025-05-06 16:00:55 - Root WebApplicationContext: initialization completed in 1124 ms
+2025-05-06 16:00:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 16:00:55 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 16:00:55 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 16:00:55 - HikariPool-1 - Starting...
+2025-05-06 16:00:55 - HikariPool-1 - Start completed.
+2025-05-06 16:00:55 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 16:00:56 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 16:00:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 16:00:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 16:00:57 - LiveReload server is running on port 35729
+2025-05-06 16:00:57 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 16:00:57 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 16:00:57 - Started Application in 3.548 seconds (JVM running for 3.937)
+2025-05-06 16:02:25 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 32064 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 16:02:25 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 16:02:25 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 16:02:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 16:02:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 16:02:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 16:02:26 - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-05-06 16:02:27 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 16:02:27 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 16:02:27 - Starting service [Tomcat]
+2025-05-06 16:02:27 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 16:02:27 - Initializing Spring embedded WebApplicationContext
+2025-05-06 16:02:27 - Root WebApplicationContext: initialization completed in 1922 ms
+2025-05-06 16:02:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 16:02:27 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 16:02:28 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 16:02:28 - HikariPool-1 - Starting...
+2025-05-06 16:02:28 - HikariPool-1 - Start completed.
+2025-05-06 16:02:28 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 16:02:28 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 16:02:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 16:02:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 16:02:30 - LiveReload server is running on port 35729
+2025-05-06 16:02:30 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 16:02:30 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 16:02:30 - Started Application in 5.634 seconds (JVM running for 6.227)
+2025-05-06 16:05:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 16:05:10 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 16:05:10 - Completed initialization in 1 ms
+2025-05-06 16:05:12 - Received request to add worker
+2025-05-06 16:05:15 - In function: addWorker
+2025-05-06 16:05:15 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 16:05:15 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 16:05:15 - 
+    insert 
+    into
+        workers
+        (address, base_salary, emergency_contact_number, is_active, joining_date, name, per_day_salary, phone, row_insertion_date_time, row_updation_date_time, uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 16:05:15 - binding parameter [1] as [VARCHAR] - [123 Main St, Springfield]
+2025-05-06 16:05:15 - binding parameter [2] as [NUMERIC] - [null]
+2025-05-06 16:05:15 - binding parameter [3] as [VARCHAR] - [9876543210]
+2025-05-06 16:05:15 - binding parameter [4] as [BOOLEAN] - [true]
+2025-05-06 16:05:15 - binding parameter [5] as [TIMESTAMP] - [null]
+2025-05-06 16:05:15 - binding parameter [6] as [VARCHAR] - [John Doe]
+2025-05-06 16:05:15 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 16:05:15 - binding parameter [8] as [VARCHAR] - [1234567890]
+2025-05-06 16:05:15 - binding parameter [9] as [TIMESTAMP] - [2025-05-06T16:05:15.525455400]
+2025-05-06 16:05:15 - binding parameter [10] as [TIMESTAMP] - [2025-05-06T16:05:15.525455400]
+2025-05-06 16:05:15 - binding parameter [11] as [VARCHAR] - [HOME_01]
+2025-05-06 17:52:24 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 26396 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 17:52:24 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 17:52:24 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 17:52:24 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 17:52:24 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 17:52:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 17:52:25 - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-05-06 17:52:25 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 17:52:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 17:52:25 - Starting service [Tomcat]
+2025-05-06 17:52:25 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 17:52:25 - Initializing Spring embedded WebApplicationContext
+2025-05-06 17:52:25 - Root WebApplicationContext: initialization completed in 1111 ms
+2025-05-06 17:52:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 17:52:25 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 17:52:25 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 17:52:26 - HikariPool-1 - Starting...
+2025-05-06 17:52:26 - HikariPool-1 - Start completed.
+2025-05-06 17:52:26 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 17:52:26 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 17:52:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 17:52:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 17:52:27 - LiveReload server is running on port 35729
+2025-05-06 17:52:27 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 17:52:27 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 17:52:27 - Started Application in 3.511 seconds (JVM running for 3.871)
+2025-05-06 17:52:40 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 21744 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 17:52:40 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 17:52:40 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 17:52:40 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 17:52:40 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 17:52:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 17:52:40 - Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+2025-05-06 17:52:40 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 17:52:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 17:52:40 - Starting service [Tomcat]
+2025-05-06 17:52:40 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 17:52:41 - Initializing Spring embedded WebApplicationContext
+2025-05-06 17:52:41 - Root WebApplicationContext: initialization completed in 960 ms
+2025-05-06 17:52:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 17:52:41 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 17:52:41 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 17:52:41 - HikariPool-1 - Starting...
+2025-05-06 17:52:41 - HikariPool-1 - Start completed.
+2025-05-06 17:52:41 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 17:52:41 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 17:52:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 17:52:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 17:52:42 - LiveReload server is running on port 35729
+2025-05-06 17:52:42 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 17:52:42 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 17:52:42 - Started Application in 2.968 seconds (JVM running for 3.311)
+2025-05-06 17:53:23 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 17:53:23 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 17:53:23 - Completed initialization in 1 ms
+2025-05-06 17:53:25 - Received request to add worker
+2025-05-06 17:53:25 - In function: addWorker
+2025-05-06 17:53:26 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:53:26 - binding parameter [1] as [VARCHAR] - [null]
+2025-05-06 17:53:26 - 
+    insert 
+    into
+        workers
+        (address, base_salary, emergency_contact_number, is_active, joining_date, name, per_day_salary, phone, row_insertion_date_time, row_updation_date_time, task, uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 17:53:26 - binding parameter [1] as [VARCHAR] - [null]
+2025-05-06 17:53:26 - binding parameter [2] as [NUMERIC] - [null]
+2025-05-06 17:53:26 - binding parameter [3] as [VARCHAR] - [null]
+2025-05-06 17:53:26 - binding parameter [4] as [BOOLEAN] - [true]
+2025-05-06 17:53:26 - binding parameter [5] as [TIMESTAMP] - [null]
+2025-05-06 17:53:26 - binding parameter [6] as [VARCHAR] - [Test 01]
+2025-05-06 17:53:26 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 17:53:26 - binding parameter [8] as [VARCHAR] - [null]
+2025-05-06 17:53:26 - binding parameter [9] as [TIMESTAMP] - [2025-05-06T17:53:26.056696900]
+2025-05-06 17:53:26 - binding parameter [10] as [TIMESTAMP] - [2025-05-06T17:53:26.056696900]
+2025-05-06 17:53:26 - binding parameter [11] as [VARCHAR] - [null]
+2025-05-06 17:53:26 - binding parameter [12] as [VARCHAR] - [null]
+2025-05-06 17:55:43 - Received request to Clock-In worker
+2025-05-06 17:55:45 - Clock-in attempt for UUID: null
+2025-05-06 17:55:45 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:55:45 - binding parameter [1] as [VARCHAR] - [null]
+2025-05-06 17:55:54 - Received request to Clock-In worker
+2025-05-06 17:55:58 - Clock-in attempt for UUID: null
+2025-05-06 17:56:03 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:56:03 - binding parameter [1] as [VARCHAR] - [null]
+2025-05-06 17:58:07 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 27684 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 17:58:07 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 17:58:07 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 17:58:07 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 17:58:07 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 17:58:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 17:58:07 - Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2025-05-06 17:58:08 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 17:58:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 17:58:08 - Starting service [Tomcat]
+2025-05-06 17:58:08 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 17:58:08 - Initializing Spring embedded WebApplicationContext
+2025-05-06 17:58:08 - Root WebApplicationContext: initialization completed in 918 ms
+2025-05-06 17:58:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 17:58:08 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 17:58:08 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 17:58:08 - HikariPool-1 - Starting...
+2025-05-06 17:58:08 - HikariPool-1 - Start completed.
+2025-05-06 17:58:08 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 17:58:08 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 17:58:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 17:58:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 17:58:09 - LiveReload server is running on port 35729
+2025-05-06 17:58:09 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 17:58:09 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 17:58:09 - Started Application in 3.038 seconds (JVM running for 3.361)
+2025-05-06 17:58:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 17:58:25 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 17:58:25 - Completed initialization in 0 ms
+2025-05-06 17:58:26 - Received request to add worker
+2025-05-06 17:58:27 - In function: addWorker
+2025-05-06 17:58:27 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:58:27 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:58:27 - 
+    insert 
+    into
+        workers
+        (address, base_salary, emergency_contact_number, is_active, joining_date, name, per_day_salary, phone, row_insertion_date_time, row_updation_date_time, task, uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 17:58:27 - binding parameter [1] as [VARCHAR] - [123 Main St, Springfield]
+2025-05-06 17:58:27 - binding parameter [2] as [NUMERIC] - [null]
+2025-05-06 17:58:27 - binding parameter [3] as [VARCHAR] - [9876543210]
+2025-05-06 17:58:27 - binding parameter [4] as [BOOLEAN] - [true]
+2025-05-06 17:58:27 - binding parameter [5] as [TIMESTAMP] - [null]
+2025-05-06 17:58:27 - binding parameter [6] as [VARCHAR] - [Test 01]
+2025-05-06 17:58:27 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 17:58:27 - binding parameter [8] as [VARCHAR] - [8818238931]
+2025-05-06 17:58:27 - binding parameter [9] as [TIMESTAMP] - [2025-05-06T17:58:27.240309600]
+2025-05-06 17:58:27 - binding parameter [10] as [TIMESTAMP] - [2025-05-06T17:58:27.240309600]
+2025-05-06 17:58:27 - binding parameter [11] as [VARCHAR] - [null]
+2025-05-06 17:58:27 - binding parameter [12] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:58:33 - Received request to Clock-In worker
+2025-05-06 17:58:34 - Clock-in attempt for UUID: HOME_1001
+2025-05-06 17:58:34 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:58:34 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:58:34 - extracted value ([id] : [BIGINT]) - [4]
+2025-05-06 17:58:34 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 17:58:34 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 17:58:34 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 17:58:34 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 17:58:34 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 17:58:34 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 17:58:34 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 17:58:34 - extracted value ([phone] : [VARCHAR]) - [8818238931]
+2025-05-06 17:58:34 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 17:58:34 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 17:58:34 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 17:58:34 - extracted value ([uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 17:58:34 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 17:58:34 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:58:34 - binding parameter [2] as [DATE] - [2025-05-06]
+2025-05-06 17:58:34 - 
+    insert 
+    into
+        attendance
+        (clockin_time, clockout_time, created_at, date, is_extra_task_assigned, status, total_amount_today, worker_uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 17:58:34 - binding parameter [1] as [TIMESTAMP] - [2025-05-06T17:58:34.953797]
+2025-05-06 17:58:34 - binding parameter [2] as [TIMESTAMP] - [null]
+2025-05-06 17:58:34 - binding parameter [3] as [TIMESTAMP] - [2025-05-06T17:58:34.953797]
+2025-05-06 17:58:34 - binding parameter [4] as [DATE] - [2025-05-06]
+2025-05-06 17:58:34 - binding parameter [5] as [BOOLEAN] - [false]
+2025-05-06 17:58:34 - binding parameter [6] as [VARCHAR] - [Present]
+2025-05-06 17:58:34 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 17:58:34 - binding parameter [8] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:58:34 - Clock-in successful for worker ID: HOME_1001
+2025-05-06 17:59:04 - Received request to Clock-In worker
+2025-05-06 17:59:05 - Clock-in attempt for UUID: HOME_1001
+2025-05-06 17:59:05 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:59:05 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:59:05 - extracted value ([id] : [BIGINT]) - [4]
+2025-05-06 17:59:05 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 17:59:05 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 17:59:05 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 17:59:05 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 17:59:05 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 17:59:05 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 17:59:05 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 17:59:05 - extracted value ([phone] : [VARCHAR]) - [8818238931]
+2025-05-06 17:59:05 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 17:59:05 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 17:59:05 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 17:59:05 - extracted value ([uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 17:59:05 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 17:59:05 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:59:05 - binding parameter [2] as [DATE] - [2025-05-06]
+2025-05-06 17:59:05 - extracted value ([id] : [BIGINT]) - [1]
+2025-05-06 17:59:05 - extracted value ([clockin_time] : [TIMESTAMP]) - [2025-05-06T17:58:35]
+2025-05-06 17:59:05 - extracted value ([clockout_time] : [TIMESTAMP]) - [null]
+2025-05-06 17:59:05 - extracted value ([created_at] : [TIMESTAMP]) - [2025-05-06T17:58:35]
+2025-05-06 17:59:05 - extracted value ([date] : [DATE]) - [2025-05-06]
+2025-05-06 17:59:05 - extracted value ([is_extra_task_assigned] : [BOOLEAN]) - [false]
+2025-05-06 17:59:05 - extracted value ([status] : [VARCHAR]) - [Present]
+2025-05-06 17:59:05 - extracted value ([total_amount_today] : [NUMERIC]) - [null]
+2025-05-06 17:59:05 - extracted value ([worker_uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 17:59:05 - Worker already clocked in today.
+2025-05-06 17:59:37 - Received request to Clock-Out worker
+2025-05-06 17:59:37 - Clock-out attempt for UUID: HOME_1001
+2025-05-06 17:59:37 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        uuid = ?
+2025-05-06 17:59:37 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:59:37 - extracted value ([id] : [BIGINT]) - [4]
+2025-05-06 17:59:37 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 17:59:37 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 17:59:37 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 17:59:37 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 17:59:37 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 17:59:37 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 17:59:37 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 17:59:37 - extracted value ([phone] : [VARCHAR]) - [8818238931]
+2025-05-06 17:59:37 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 17:59:37 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 17:59:37 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 17:59:37 - extracted value ([uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 17:59:37 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 17:59:37 - binding parameter [1] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:59:37 - binding parameter [2] as [DATE] - [2025-05-06]
+2025-05-06 17:59:37 - extracted value ([id] : [BIGINT]) - [1]
+2025-05-06 17:59:37 - extracted value ([clockin_time] : [TIMESTAMP]) - [2025-05-06T17:58:35]
+2025-05-06 17:59:37 - extracted value ([clockout_time] : [TIMESTAMP]) - [null]
+2025-05-06 17:59:37 - extracted value ([created_at] : [TIMESTAMP]) - [2025-05-06T17:58:35]
+2025-05-06 17:59:37 - extracted value ([date] : [DATE]) - [2025-05-06]
+2025-05-06 17:59:37 - extracted value ([is_extra_task_assigned] : [BOOLEAN]) - [false]
+2025-05-06 17:59:37 - extracted value ([status] : [VARCHAR]) - [Present]
+2025-05-06 17:59:37 - extracted value ([total_amount_today] : [NUMERIC]) - [null]
+2025-05-06 17:59:37 - extracted value ([worker_uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 17:59:37 - 
+    update
+        attendance 
+    set
+        clockin_time=?,
+        clockout_time=?,
+        date=?,
+        is_extra_task_assigned=?,
+        status=?,
+        total_amount_today=?,
+        worker_uuid=? 
+    where
+        id=?
+2025-05-06 17:59:37 - binding parameter [1] as [TIMESTAMP] - [2025-05-06T17:58:35]
+2025-05-06 17:59:37 - binding parameter [2] as [TIMESTAMP] - [2025-05-06T17:59:37.947324900]
+2025-05-06 17:59:37 - binding parameter [3] as [DATE] - [2025-05-06]
+2025-05-06 17:59:37 - binding parameter [4] as [BOOLEAN] - [false]
+2025-05-06 17:59:37 - binding parameter [5] as [VARCHAR] - [Present]
+2025-05-06 17:59:37 - binding parameter [6] as [NUMERIC] - [null]
+2025-05-06 17:59:37 - binding parameter [7] as [VARCHAR] - [HOME_1001]
+2025-05-06 17:59:37 - binding parameter [8] as [BIGINT] - [1]
+2025-05-06 17:59:37 - Clock-out successful for worker UUID: HOME_1001
+2025-05-06 18:03:22 - Received request to add worker
+2025-05-06 18:03:46 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 17724 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 18:03:46 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 18:03:46 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 18:03:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 18:03:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 18:03:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 18:03:47 - Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2025-05-06 18:03:47 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 18:03:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:03:47 - Starting service [Tomcat]
+2025-05-06 18:03:47 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 18:03:47 - Initializing Spring embedded WebApplicationContext
+2025-05-06 18:03:47 - Root WebApplicationContext: initialization completed in 891 ms
+2025-05-06 18:03:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 18:03:47 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 18:03:47 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 18:03:47 - HikariPool-1 - Starting...
+2025-05-06 18:03:48 - HikariPool-1 - Start completed.
+2025-05-06 18:03:48 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 18:03:48 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 18:03:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 18:03:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 18:03:49 - LiveReload server is running on port 35729
+2025-05-06 18:03:49 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:03:49 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 18:03:49 - Started Application in 2.771 seconds (JVM running for 3.071)
+2025-05-06 18:03:57 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 18:03:57 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 18:03:57 - Completed initialization in 0 ms
+2025-05-06 18:04:01 - Received request to add worker
+2025-05-06 18:04:03 - Adding Extra Task to table.
+2025-05-06 18:04:08 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:04:08 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:04:52 - Received request to add worker
+2025-05-06 18:04:54 - Adding Extra Task to table.
+2025-05-06 18:04:55 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:04:55 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:07:14 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 9872 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 18:07:14 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 18:07:14 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 18:07:14 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 18:07:14 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 18:07:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 18:07:14 - Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2025-05-06 18:07:14 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 18:07:14 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:07:14 - Starting service [Tomcat]
+2025-05-06 18:07:14 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 18:07:15 - Initializing Spring embedded WebApplicationContext
+2025-05-06 18:07:15 - Root WebApplicationContext: initialization completed in 955 ms
+2025-05-06 18:07:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 18:07:15 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 18:07:15 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 18:07:15 - HikariPool-1 - Starting...
+2025-05-06 18:07:15 - HikariPool-1 - Start completed.
+2025-05-06 18:07:15 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 18:07:15 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 18:07:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 18:07:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 18:07:16 - LiveReload server is running on port 35729
+2025-05-06 18:07:16 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:07:16 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 18:07:16 - Started Application in 3.035 seconds (JVM running for 3.365)
+2025-05-06 18:07:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 18:07:18 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 18:07:18 - Completed initialization in 1 ms
+2025-05-06 18:07:19 - Received request to add worker
+2025-05-06 18:07:21 - Adding Extra Task to table.
+2025-05-06 18:07:21 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:07:21 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:08:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s992ms65µs600ns).
+2025-05-06 18:11:50 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 42916 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 18:11:50 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 18:11:50 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 18:11:50 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 18:11:50 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 18:11:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 18:11:50 - Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2025-05-06 18:11:51 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 18:11:51 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:11:51 - Starting service [Tomcat]
+2025-05-06 18:11:51 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 18:11:51 - Initializing Spring embedded WebApplicationContext
+2025-05-06 18:11:51 - Root WebApplicationContext: initialization completed in 898 ms
+2025-05-06 18:11:51 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 18:11:51 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 18:11:51 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 18:11:51 - HikariPool-1 - Starting...
+2025-05-06 18:11:51 - HikariPool-1 - Start completed.
+2025-05-06 18:11:51 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 18:11:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 18:11:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 18:11:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 18:11:52 - LiveReload server is running on port 35729
+2025-05-06 18:11:52 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:11:52 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 18:11:52 - Started Application in 2.861 seconds (JVM running for 3.164)
+2025-05-06 18:12:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 18:12:03 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 18:12:03 - Completed initialization in 0 ms
+2025-05-06 18:12:05 - Received request to add worker
+2025-05-06 18:12:05 - Adding Extra Task to table.
+2025-05-06 18:12:05 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:12:05 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:12:12 - Received request to add worker
+2025-05-06 18:12:15 - Adding Extra Task to table.
+2025-05-06 18:12:16 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:12:16 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:12:51 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 39128 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 18:12:51 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 18:12:51 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 18:12:51 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 18:12:51 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 18:12:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 18:12:51 - Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2025-05-06 18:12:51 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 18:12:51 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:12:51 - Starting service [Tomcat]
+2025-05-06 18:12:51 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 18:12:52 - Initializing Spring embedded WebApplicationContext
+2025-05-06 18:12:52 - Root WebApplicationContext: initialization completed in 915 ms
+2025-05-06 18:12:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 18:12:52 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 18:12:52 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 18:12:52 - HikariPool-1 - Starting...
+2025-05-06 18:12:52 - HikariPool-1 - Start completed.
+2025-05-06 18:12:52 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 18:12:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 18:12:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 18:12:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 18:12:53 - LiveReload server is running on port 35729
+2025-05-06 18:12:53 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:12:53 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 18:12:53 - Started Application in 2.949 seconds (JVM running for 3.257)
+2025-05-06 18:13:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 18:13:02 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 18:13:02 - Completed initialization in 1 ms
+2025-05-06 18:13:16 - Received request to add worker
+2025-05-06 18:13:18 - Adding Extra Task to table.
+2025-05-06 18:13:19 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:13:19 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:14:40 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 36100 (A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\HomeLab.WorkerManagement)
+2025-05-06 18:14:40 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 18:14:40 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 18:14:40 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 18:14:40 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 18:14:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 18:14:40 - Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2025-05-06 18:14:41 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 18:14:41 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:14:41 - Starting service [Tomcat]
+2025-05-06 18:14:41 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 18:14:41 - Initializing Spring embedded WebApplicationContext
+2025-05-06 18:14:41 - Root WebApplicationContext: initialization completed in 911 ms
+2025-05-06 18:14:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 18:14:41 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 18:14:41 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 18:14:41 - HikariPool-1 - Starting...
+2025-05-06 18:14:41 - HikariPool-1 - Start completed.
+2025-05-06 18:14:41 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 18:14:41 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 18:14:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 18:14:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 18:14:42 - LiveReload server is running on port 35729
+2025-05-06 18:14:42 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 18:14:42 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 18:14:42 - Started Application in 2.973 seconds (JVM running for 3.287)
+2025-05-06 18:14:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-06 18:14:50 - Initializing Servlet 'dispatcherServlet'
+2025-05-06 18:14:50 - Completed initialization in 0 ms
+2025-05-06 18:14:51 - Received request to add worker
+2025-05-06 18:14:51 - Adding Extra Task to table.
+2025-05-06 18:14:51 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:14:51 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:14:51 - 
+    insert 
+    into
+        extra_tasks
+        (amount, description, is_completed, row_insertion_date_time, row_updation_date_time, task_id, worker_uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-06 18:14:51 - binding parameter [1] as [NUMERIC] - [null]
+2025-05-06 18:14:51 - binding parameter [2] as [VARCHAR] - [sample task]
+2025-05-06 18:14:51 - binding parameter [3] as [BOOLEAN] - [false]
+2025-05-06 18:14:51 - binding parameter [4] as [TIMESTAMP] - [2025-05-06T18:14:51.132314700]
+2025-05-06 18:14:51 - binding parameter [5] as [TIMESTAMP] - [2025-05-06T18:14:51.132314700]
+2025-05-06 18:14:51 - binding parameter [6] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:14:51 - binding parameter [7] as [VARCHAR] - [HOME_1001]
+2025-05-06 18:14:51 - Task Added Successfully with taskId 0605202510010001
+2025-05-06 18:15:04 - Received request to Delete Task
+2025-05-06 18:15:04 - Removing Existing Extra Task.
+2025-05-06 18:15:04 - 
+    SELECT
+        * 
+    FROM
+        extra_tasks 
+    WHERE
+        task_id = ?
+2025-05-06 18:15:04 - binding parameter [1] as [VARCHAR] - [0605202510010001]
+2025-05-06 18:15:04 - extracted value ([id] : [BIGINT]) - [1]
+2025-05-06 18:15:04 - extracted value ([amount] : [NUMERIC]) - [null]
+2025-05-06 18:15:04 - extracted value ([description] : [VARCHAR]) - [sample task]
+2025-05-06 18:15:04 - extracted value ([is_completed] : [BOOLEAN]) - [false]
+2025-05-06 18:15:04 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T18:14:51]
+2025-05-06 18:15:04 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T18:14:51]
+2025-05-06 18:15:04 - extracted value ([task_id] : [VARCHAR]) - [0605202510010001]
+2025-05-06 18:15:04 - extracted value ([worker_uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 18:15:04 - 
+    delete 
+    from
+        extra_tasks 
+    where
+        id=?
+2025-05-06 18:15:04 - binding parameter [1] as [BIGINT] - [1]
+2025-05-06 18:15:04 - Task Deleted Successfully with taskId 0605202510010001
