@@ -1461,3 +1461,342 @@ Caused by: org.hibernate.PropertyValueException: not-null property references a 
         id=?
 2025-05-06 18:15:04 - binding parameter [1] as [BIGINT] - [1]
 2025-05-06 18:15:04 - Task Deleted Successfully with taskId 0605202510010001
+2025-05-06 21:40:20 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 37680 (A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement)
+2025-05-06 21:40:20 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 21:40:20 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 21:40:20 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 21:40:20 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 21:40:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 21:40:21 - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2025-05-06 21:40:22 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 21:40:22 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:40:22 - Starting service [Tomcat]
+2025-05-06 21:40:22 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 21:40:22 - Initializing Spring embedded WebApplicationContext
+2025-05-06 21:40:22 - Root WebApplicationContext: initialization completed in 1305 ms
+2025-05-06 21:40:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 21:40:22 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 21:40:22 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 21:40:22 - HikariPool-1 - Starting...
+2025-05-06 21:40:22 - HikariPool-1 - Start completed.
+2025-05-06 21:40:22 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 21:40:23 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 21:40:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 21:40:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 21:40:24 - LiveReload server is running on port 35729
+2025-05-06 21:40:24 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:40:24 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 21:40:24 - Started Application in 4.286 seconds (JVM running for 4.865)
+2025-05-06 21:40:37 - Starting autoMarkDailyAttendance scheduler at: 2025-05-06T21:40:37.202960500
+2025-05-06 21:40:38 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        is_active = true
+2025-05-06 21:40:38 - extracted value ([id] : [BIGINT]) - [2]
+2025-05-06 21:40:38 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 21:40:38 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:40:38 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 21:40:38 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:40:38 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:40:38 - extracted value ([name] : [VARCHAR]) - [John Doe]
+2025-05-06 21:40:38 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:40:38 - extracted value ([phone] : [VARCHAR]) - [1234567890]
+2025-05-06 21:40:38 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T16:05:16]
+2025-05-06 21:40:38 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T16:05:16]
+2025-05-06 21:40:38 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([uuid] : [VARCHAR]) - [HOME_01]
+2025-05-06 21:40:38 - extracted value ([id] : [BIGINT]) - [3]
+2025-05-06 21:40:38 - extracted value ([address] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:40:38 - extracted value ([emergency_contact_number] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:40:38 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:40:38 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 21:40:38 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:40:38 - extracted value ([phone] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:53:26]
+2025-05-06 21:40:38 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:53:26]
+2025-05-06 21:40:38 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([uuid] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([id] : [BIGINT]) - [4]
+2025-05-06 21:40:38 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 21:40:38 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:40:38 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 21:40:38 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:40:38 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:40:38 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 21:40:38 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:40:38 - extracted value ([phone] : [VARCHAR]) - [8818238931]
+2025-05-06 21:40:38 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 21:40:38 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 21:40:38 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:40:38 - extracted value ([uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 21:40:39 - Found 3 active workers to process.
+2025-05-06 21:40:54 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 21:40:54 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 21:40:54 - binding parameter [2] as [DATE] - [2025-05-06]
+2025-05-06 21:41:00 - 
+    insert 
+    into
+        attendance
+        (clockin_time, clockout_time, created_at, date, is_extra_task_assigned, status, total_amount_today, worker_uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 21:41:00 - binding parameter [1] as [TIMESTAMP] - [null]
+2025-05-06 21:41:00 - binding parameter [2] as [TIMESTAMP] - [null]
+2025-05-06 21:41:00 - binding parameter [3] as [TIMESTAMP] - [2025-05-06T21:40:58.387476600]
+2025-05-06 21:41:00 - binding parameter [4] as [DATE] - [2025-05-06]
+2025-05-06 21:41:00 - binding parameter [5] as [BOOLEAN] - [false]
+2025-05-06 21:41:00 - binding parameter [6] as [VARCHAR] - [Absent]
+2025-05-06 21:41:00 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 21:41:00 - binding parameter [8] as [VARCHAR] - [HOME_01]
+2025-05-06 21:41:00 - SQL Error: 1062, SQLState: 23000
+2025-05-06 21:41:00 - Duplicate entry '2025-05-06' for key 'attendance.worker_id'
+2025-05-06 21:41:57 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 3872 (A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement)
+2025-05-06 21:41:57 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 21:41:57 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 21:41:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 21:41:57 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 21:41:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 21:41:58 - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2025-05-06 21:41:59 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 21:41:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:41:59 - Starting service [Tomcat]
+2025-05-06 21:41:59 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 21:41:59 - Initializing Spring embedded WebApplicationContext
+2025-05-06 21:41:59 - Root WebApplicationContext: initialization completed in 1454 ms
+2025-05-06 21:41:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 21:41:59 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 21:41:59 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 21:41:59 - HikariPool-1 - Starting...
+2025-05-06 21:41:59 - HikariPool-1 - Start completed.
+2025-05-06 21:41:59 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 21:42:00 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 21:42:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 21:42:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 21:42:02 - LiveReload server is running on port 35729
+2025-05-06 21:42:02 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:42:02 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 21:42:02 - Started Application in 4.617 seconds (JVM running for 5.149)
+2025-05-06 21:42:35 - Starting autoMarkDailyAttendance scheduler at: 2025-05-06T21:42:35.571362300
+2025-05-06 21:42:36 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        is_active = true
+2025-05-06 21:42:36 - extracted value ([id] : [BIGINT]) - [2]
+2025-05-06 21:42:36 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 21:42:36 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:42:36 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 21:42:36 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:42:36 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:42:36 - extracted value ([name] : [VARCHAR]) - [John Doe]
+2025-05-06 21:42:36 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:42:36 - extracted value ([phone] : [VARCHAR]) - [1234567890]
+2025-05-06 21:42:36 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T16:05:16]
+2025-05-06 21:42:36 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T16:05:16]
+2025-05-06 21:42:36 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([uuid] : [VARCHAR]) - [HOME_01]
+2025-05-06 21:42:36 - extracted value ([id] : [BIGINT]) - [3]
+2025-05-06 21:42:36 - extracted value ([address] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:42:36 - extracted value ([emergency_contact_number] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:42:36 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:42:36 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 21:42:36 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:42:36 - extracted value ([phone] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:53:26]
+2025-05-06 21:42:36 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:53:26]
+2025-05-06 21:42:36 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([uuid] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([id] : [BIGINT]) - [4]
+2025-05-06 21:42:36 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 21:42:36 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:42:36 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 21:42:36 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:42:36 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:42:36 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 21:42:36 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:42:36 - extracted value ([phone] : [VARCHAR]) - [8818238931]
+2025-05-06 21:42:36 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 21:42:36 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 21:42:36 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:42:36 - extracted value ([uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 21:42:37 - Found 3 active workers to process.
+2025-05-06 21:42:38 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 21:42:38 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 21:42:38 - binding parameter [2] as [DATE] - [2025-05-06]
+2025-05-06 21:42:45 - 
+    insert 
+    into
+        attendance
+        (clockin_time, clockout_time, created_at, date, is_extra_task_assigned, status, total_amount_today, worker_uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 21:42:45 - binding parameter [1] as [TIMESTAMP] - [null]
+2025-05-06 21:42:45 - binding parameter [2] as [TIMESTAMP] - [null]
+2025-05-06 21:42:45 - binding parameter [3] as [TIMESTAMP] - [2025-05-06T21:42:43.392545600]
+2025-05-06 21:42:45 - binding parameter [4] as [DATE] - [2025-05-06]
+2025-05-06 21:42:45 - binding parameter [5] as [BOOLEAN] - [false]
+2025-05-06 21:42:45 - binding parameter [6] as [VARCHAR] - [Absent]
+2025-05-06 21:42:45 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 21:42:45 - binding parameter [8] as [VARCHAR] - [HOME_01]
+2025-05-06 21:42:45 - SQL Error: 1062, SQLState: 23000
+2025-05-06 21:42:45 - Duplicate entry '2025-05-06' for key 'attendance.worker_id'
+2025-05-06 21:54:31 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 21180 (A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement)
+2025-05-06 21:54:31 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 21:54:31 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 21:54:31 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 21:54:31 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 21:54:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 21:54:32 - Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+2025-05-06 21:54:33 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 21:54:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:54:33 - Starting service [Tomcat]
+2025-05-06 21:54:33 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 21:54:33 - Initializing Spring embedded WebApplicationContext
+2025-05-06 21:54:33 - Root WebApplicationContext: initialization completed in 1171 ms
+2025-05-06 21:54:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 21:54:33 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 21:54:33 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 21:54:33 - HikariPool-1 - Starting...
+2025-05-06 21:54:33 - HikariPool-1 - Start completed.
+2025-05-06 21:54:33 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 21:54:34 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 21:54:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 21:54:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 21:54:35 - LiveReload server is running on port 35729
+2025-05-06 21:54:35 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:54:35 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 21:54:35 - Started Application in 3.936 seconds (JVM running for 4.277)
+2025-05-06 21:54:57 - Starting Application using Java 11.0.25 on CasualClicksLOQ with PID 6192 (A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement\build\classes\java\main started by shiva in A:\everything-study-related\Spring-Boot learning projects\Github Connected\WorkerManagement\HomeLab.WorkerManagement)
+2025-05-06 21:54:57 - Running with Spring Boot v2.7.10, Spring v5.3.26
+2025-05-06 21:54:57 - No active profile set, falling back to 1 default profile: "default"
+2025-05-06 21:54:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-06 21:54:57 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-06 21:54:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-06 21:54:58 - Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2025-05-06 21:54:58 - Tomcat initialized with port(s): 8080 (http)
+2025-05-06 21:54:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:54:58 - Starting service [Tomcat]
+2025-05-06 21:54:58 - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-05-06 21:54:59 - Initializing Spring embedded WebApplicationContext
+2025-05-06 21:54:59 - Root WebApplicationContext: initialization completed in 1630 ms
+2025-05-06 21:54:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-06 21:54:59 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-05-06 21:54:59 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-06 21:54:59 - HikariPool-1 - Starting...
+2025-05-06 21:54:59 - HikariPool-1 - Start completed.
+2025-05-06 21:54:59 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-05-06 21:55:00 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-06 21:55:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-06 21:55:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-06 21:55:02 - LiveReload server is running on port 35729
+2025-05-06 21:55:02 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-06 21:55:02 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-06 21:55:02 - Started Application in 5.399 seconds (JVM running for 5.929)
+2025-05-06 21:58:34 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m34s490ms201µs).
+2025-05-06 21:58:34 - Starting autoMarkDailyAttendance scheduler at: 2025-05-06T21:58:34.193245900
+2025-05-06 21:58:35 - 
+    SELECT
+        * 
+    FROM
+        workers 
+    WHERE
+        is_active = true
+2025-05-06 21:58:35 - extracted value ([id] : [BIGINT]) - [2]
+2025-05-06 21:58:35 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 21:58:35 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:58:35 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 21:58:35 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:58:35 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:58:35 - extracted value ([name] : [VARCHAR]) - [John Doe]
+2025-05-06 21:58:35 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:58:35 - extracted value ([phone] : [VARCHAR]) - [1234567890]
+2025-05-06 21:58:35 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T16:05:16]
+2025-05-06 21:58:35 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T16:05:16]
+2025-05-06 21:58:35 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([uuid] : [VARCHAR]) - [HOME_01]
+2025-05-06 21:58:35 - extracted value ([id] : [BIGINT]) - [3]
+2025-05-06 21:58:35 - extracted value ([address] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:58:35 - extracted value ([emergency_contact_number] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:58:35 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:58:35 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 21:58:35 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:58:35 - extracted value ([phone] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:53:26]
+2025-05-06 21:58:35 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:53:26]
+2025-05-06 21:58:35 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([uuid] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([id] : [BIGINT]) - [4]
+2025-05-06 21:58:35 - extracted value ([address] : [VARCHAR]) - [123 Main St, Springfield]
+2025-05-06 21:58:35 - extracted value ([base_salary] : [NUMERIC]) - [null]
+2025-05-06 21:58:35 - extracted value ([emergency_contact_number] : [VARCHAR]) - [9876543210]
+2025-05-06 21:58:35 - extracted value ([is_active] : [BOOLEAN]) - [true]
+2025-05-06 21:58:35 - extracted value ([joining_date] : [TIMESTAMP]) - [null]
+2025-05-06 21:58:35 - extracted value ([name] : [VARCHAR]) - [Test 01]
+2025-05-06 21:58:35 - extracted value ([per_day_salary] : [NUMERIC]) - [null]
+2025-05-06 21:58:35 - extracted value ([phone] : [VARCHAR]) - [8818238931]
+2025-05-06 21:58:35 - extracted value ([row_insertion_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 21:58:35 - extracted value ([row_updation_date_time] : [TIMESTAMP]) - [2025-05-06T17:58:27]
+2025-05-06 21:58:35 - extracted value ([task] : [VARCHAR]) - [null]
+2025-05-06 21:58:35 - extracted value ([uuid] : [VARCHAR]) - [HOME_1001]
+2025-05-06 21:58:36 - Found 3 active workers to process.
+2025-05-06 21:58:37 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 21:58:37 - binding parameter [1] as [VARCHAR] - [HOME_01]
+2025-05-06 21:58:37 - binding parameter [2] as [DATE] - [2025-05-06]
+2025-05-06 21:58:39 - 
+    insert 
+    into
+        attendance
+        (clockin_time, clockout_time, created_at, date, is_extra_task_assigned, status, total_amount_today, worker_uuid) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-06 21:58:39 - binding parameter [1] as [TIMESTAMP] - [null]
+2025-05-06 21:58:39 - binding parameter [2] as [TIMESTAMP] - [null]
+2025-05-06 21:58:39 - binding parameter [3] as [TIMESTAMP] - [2025-05-06T21:58:39.419942200]
+2025-05-06 21:58:39 - binding parameter [4] as [DATE] - [2025-05-06]
+2025-05-06 21:58:39 - binding parameter [5] as [BOOLEAN] - [false]
+2025-05-06 21:58:39 - binding parameter [6] as [VARCHAR] - [Absent]
+2025-05-06 21:58:39 - binding parameter [7] as [NUMERIC] - [null]
+2025-05-06 21:58:39 - binding parameter [8] as [VARCHAR] - [HOME_01]
+2025-05-06 21:58:41 - Attendance marked as ABSENT for worker: HOME_01
+2025-05-06 21:58:42 - 
+    SELECT
+        * 
+    FROM
+        attendance 
+    WHERE
+        worker_uuid = ? 
+        AND date = ?
+2025-05-06 21:58:42 - binding parameter [1] as [VARCHAR] - [null]
+2025-05-06 21:58:42 - binding parameter [2] as [DATE] - [2025-05-06]
