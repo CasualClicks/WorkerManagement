@@ -31,7 +31,7 @@ public class AttendanceSchduler {
      * Cron Expression Explanation: Every day at 6:00 AM
      * Format: second, minute, hour, dayOfMonth, month, dayOfWeek
      */
-    @Scheduled(cron = "0/10 * * * * *")
+    @Scheduled(cron = "${scheduler.attendance.cron}")
     public void autoMarkDailyAttendance() {
         logger.logInfo("Starting autoMarkDailyAttendance scheduler at: " + LocalDateTime.now());
 
